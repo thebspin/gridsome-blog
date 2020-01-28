@@ -6,5 +6,26 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "posts/**/*.md",
+        typeName: "BlogPost",
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+        }
+      }
+    },
+    {
+      use: 'gridsome-plugin-tailwindcss'
+    }
+  ],
+  transformers: {
+    remark: {
+      plugins: ["@gridsome/remark-prismjs"]
+    }
+  }
 }
