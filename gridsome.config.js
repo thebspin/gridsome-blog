@@ -10,12 +10,10 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "posts/**/*.md",
-        typeName: "BlogPost",
-        resolveAbsolutePaths: true,
+        path: "content/articles/**/*.md",
+        typeName: "Articles",
+        // resolveAbsolutePaths: true,
         remark: {
-          externalLinksTarget: "_blank",
-          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
         }
       }
     },
