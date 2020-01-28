@@ -15,18 +15,18 @@
   </Layout>
 </template>
 <page-query>
-query {
-  articles: allArticles {
-    edges {
-      node {
-        title
-        abstract
-        image
-        path
+  query {
+    articles: allArticles {
+      edges {
+        node {
+          title
+          abstract
+          image
+          path
+        }
       }
     }
   }
-}
 </page-query>
 <script>
 export default {

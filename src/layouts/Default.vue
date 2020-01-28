@@ -1,50 +1,47 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
+  <div>
+    <header class="bg-blue-900">
+      <div class="container mx-auto flex justify-between items-center py-4 ">
+        <div class="flex-shrink-0 ml-10">
+          <g-link to="/">
+            <i class="fas fa-drafting-compass fa-2x text-orange-500"></i>
+            <span class="ml-1 text-3xl text-white font-semibold">bspin</span>
+          </g-link>
+        </div>
+        <i class="fas fa-bars fa-2x visible md:invisible mr-10 md:mr-0 text-blue-200"></i>
+        <ul class="hidden md:flex overflow-x-hidden mr-10 font-semibold">
+          <li class="mr-6 p-1 border-b-2 border-orange-500">
+            <g-link class="text-blue-200 cursor-pointer" to="/">Home</g-link>
+          </li>
+          <li class="mr-6 p-1">
+            <g-link class="text-white hover:text-blue-300 cursor-pointer" to="/">Projects</g-link>
+          </li>
+          <li class="mr-6 p-1">
+            <g-link class="text-white hover:text-blue-300 cursor-pointer" to="/">Articles</g-link>
+          </li>
+          <li class="mr-6 p-1">
+            <g-link class="text-white hover:text-blue-300 cursor-pointer" to="/">About</g-link>
+          </li>
+          <li class="mr-6 p-1">
+            <g-link class="text-white hover:text-blue-300 cursor-pointer" to="/">Contact</g-link>
+          </li>
+        </ul>
+      </div>
     </header>
-    <slot/>
+    <div class="container mx-auto">
+      <slot/>
+    </div>
   </div>
 </template>
 
 <static-query>
-query {
-  metadata {
-    siteName
+  query {
+    metadata {
+      siteName
+    }
   }
-}
 </static-query>
 
-<style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
+<style scoped>
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
 </style>

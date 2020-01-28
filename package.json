@@ -4,7 +4,9 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
     "@gridsome/remark-prismjs": "^0.3.0",
@@ -13,6 +15,9 @@
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
-    "gridsome-plugin-tailwindcss": "^2.2.32"
+    "eslint": "^6.8.0",
+    "eslint-plugin-gridsome": "^1.4.0",
+    "gridsome-plugin-tailwindcss": "^2.2.32",
+    "vue-eslint-parser": "^7.0.0"
   }
 }

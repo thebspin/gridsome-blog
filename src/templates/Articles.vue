@@ -15,14 +15,14 @@
 </template>
 
 <page-query>
-query ($path: String!) {
-  article: articles (path: $path) {
-    title
-    content
-    author
-    image
+  query($path: String!) {
+    article: articles(path: $path) {
+      title
+      content
+      author
+      image
+    }
   }
-}
 </page-query>
 <script>
 export default {
