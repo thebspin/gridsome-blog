@@ -1,8 +1,7 @@
 ---
 title: My Third Article
-image: https://source.unsplash.com/random/1
-abstract: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+image: /uploads/tianyi-ma-WiONHd_zYI4-unsplash.jpg
 author: Mario Rossi
 date: 2020-01-07T17:43:37.669Z
 ---
