@@ -12,10 +12,11 @@
         </div>
       </div> -->
       <div class="flex flex-wrap -mx-2">
-        <div v-for="article in $page.articles.edges" :key="article.id" class="w-1/3 my-2 px-2">
+        <div v-for="article in $page.articles.edges" :key="article.id" class="w-full md:w-1/2 lg:w-1/3 my-2 px-2">
           <g-link :to="article.node.path">
           <div class="bg-gray-100 shadow-lg rounded overflow-hidden">
-            <img class="w-full" :src="article.node.image" alt="Sunset in the mountains">
+            <!-- <img class="w-full" :src="article.node.image" alt="Sunset in the mountains"> -->
+            <div class="w-full bg-cover bg-center h-48" :style="{ 'background-image': 'url(' + article.node.image + ')' }"></div>
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">{{article.node.title}}</div>
               <p class="text-gray-700 text-base">

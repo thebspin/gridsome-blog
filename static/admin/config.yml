@@ -6,7 +6,7 @@ public_folder: "/uploads"
 collections:
     - name: "articles"
       label: "Article"
-      folder: "articles"
+      folder: "content/articles"
       create: true
       slug: "{{slug}}"
       fields:
