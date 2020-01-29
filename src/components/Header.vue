@@ -1,6 +1,6 @@
 <template>
   <header class="bg-blue-900">
-      <div class="container mx-auto flex justify-between items-center py-4 ">
+      <div class="container mx-auto flex justify-between items-center py-4">
         <div class="flex-shrink-0 ml-10">
           <g-link to="/">
             <i class="fas fa-drafting-compass fa-2x text-orange-500"></i>
