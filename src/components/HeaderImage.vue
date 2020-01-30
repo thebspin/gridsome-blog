@@ -1,3 +1,4 @@
 <template>
-  <div class="bg-purple-600 text-white overflow-hidden bg-repeat h-32"></div>
+  <!-- <div class="bg-purple-600 text-white overflow-hidden bg-repeat h-32"></div> -->
+  <div class="h-64" style="background: repeating-linear-gradient(67.5deg, rgba(252, 252, 252, 0.05) 0px, rgba(252, 252, 252, 0.05) 1px, transparent 1px, transparent 54px), repeating-linear-gradient(157.5deg, rgba(252, 252, 252, 0.05) 0px, rgba(252, 252, 252, 0.05) 1px, transparent 1px, transparent 54px), repeating-linear-gradient(67.5deg, rgba(252, 252, 252, 0.05) 0px, rgba(252, 252, 252, 0.05) 1px, transparent 1px, transparent 25px), repeating-linear-gradient(0deg, rgba(252, 252, 252, 0.05) 0px, rgba(252, 252, 252, 0.05) 1px, transparent 1px, transparent 25px), repeating-linear-gradient(67.5deg, rgba(252, 252, 252, 0.05) 0px, rgba(252, 252, 252, 0.05) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(157.5deg, rgba(252, 252, 252, 0.05) 0px, rgba(252, 252, 252, 0.05) 1px, transparent 1px, transparent 12px), linear-gradient(90deg, rgba(86, 53, 156, 0.9), rgba(86, 53, 156,0.9));"></div>
 </template>

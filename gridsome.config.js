@@ -23,7 +23,9 @@ module.exports = {
   ],
   transformers: {
     remark: {
-      plugins: ["@gridsome/remark-prismjs"]
+      plugins: [
+        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Default', skipInline: true } ]
+      ]
     }
   }
 }
