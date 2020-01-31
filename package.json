@@ -12,7 +12,8 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.4.0",
     "gridsome": "^0.7.0",
-    "gridsome-plugin-remark-shiki": "^0.3.1"
+    "gridsome-plugin-remark-shiki": "^0.3.1",
+    "typeface-open-sans": "0.0.75"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

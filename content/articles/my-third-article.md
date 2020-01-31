@@ -19,6 +19,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 import TodoList from './components/TodoList.vue'
 
 export default {
+  // All my custom components
   components: {
     TodoList
   }
@@ -41,3 +42,5 @@ export default {
 }
 </style>
 ```
+## En dan hier nog iets
+Met nog wat tekst enzo
