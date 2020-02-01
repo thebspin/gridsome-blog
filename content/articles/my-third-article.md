@@ -1,7 +1,7 @@
 ---
 title: My Third Article
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-image: /uploads/tianyi-ma-WiONHd_zYI4-unsplash.jpg
+image: /uploads/stanley-dai-73OZYNjVoNI-unsplash.jpg
 author: Mario Rossi
 date: 2020-01-07T17:43:37.669Z
 ---

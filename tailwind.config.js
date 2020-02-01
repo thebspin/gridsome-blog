@@ -18,7 +18,7 @@ module.exports = {
         'h1': { fontSize: config('theme.fontSize.4xl') },
         'h2': { fontSize: config('theme.fontSize.3xl') },
         'h3': { fontSize: config('theme.fontSize.2xl') },
-        'pre': { padding: "2rem", overflow: "auto", overflowWrap: "break-word", marginBottom:"1rem", whiteSpace:"pre-wrap"},
+        'pre': { padding: config('theme.padding.8'), overflow: "auto", overflowWrap: "break-word", marginBottom: config('theme.margin.4'), whiteSpace:"pre-wrap"},
         'pre code': { whiteSpace:"pre-wrap", fontSize: config('theme.fontSize.sm') } 
       })
     }
